@@ -1,11 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="publications.html">Publications</a>
-    </nav>
-</header>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,15 +16,59 @@
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
+            text-align: left;
         }
         img {
             width: 150px;
             border-radius: 50%;
         }
+        nav {
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .publication {
+            margin-bottom: 20px;
+        }
+        .publication-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .publication-authors,
+        .publication-journal,
+        .publication-year {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
-    <h1>Publications</h1>
-    <p>Here are some of my research papers and publications:</p>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="publications.html">Publications</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Publications</h1>
+        <div class="publication">
+            <p class="publication-title">Title of Paper 1</p>
+            <p class="publication-authors"><strong>Authors:</strong> J.K. Elrod, Co-author</p>
+            <p class="publication-journal"><strong>Journal:</strong> Journal Name</p>
+            <p class="publication-year"><strong>Year:</strong> 2023</p>
+            <p><a href="https://doi.org/your-paper-link">Read More</a></p>
+        </div>
+        <div class="publication">
+            <p class="publication-title">Title of Paper 2</p>
+            <p class="publication-authors"><strong>Authors:</strong> J.K. Elrod, Another Co-author</p>
+            <p class="publication-journal"><strong>Journal:</strong> Another Journal Name</p>
+            <p class="publication-year"><strong>Year:</strong> 2022</p>
+            <p><a href="https://doi.org/your-second-paper-link">Read More</a></p>
+        </div>
+        <!-- Add more publications as needed -->
+    </div>
 </body>
 </html>
