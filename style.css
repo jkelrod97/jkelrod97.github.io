@@ -40,4 +40,5 @@ main {
 .bio {
     text-align: left;
     max-width: 600px; /* Optional: Keeps text from being too wide */
+    margin: 0 auto; /* Centers the text block while keeping it left-aligned */
 }
