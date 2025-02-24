@@ -32,13 +32,6 @@ body {
     text-align: center; /* Centers headings and image */
 }
 
-body {
-    background-image: url('path_to_your_image.jpg');
-    background-size: cover; /* Makes sure the image covers the whole screen */
-    background-position: center center; /* Centers the image */
-    background-attachment: fixed; /* Keeps the image fixed when scrolling */
-}
-
 .container {
     max-width: 1200px;
     margin: 50px auto; /* Centers the whole container */
