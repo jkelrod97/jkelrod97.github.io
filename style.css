@@ -22,7 +22,7 @@ nav a:hover {
 
 /* Body Styling */
 body {
-    background-image: url('juliakelrod.jpeg');
+    background-image: url('dna_background.png');
     background-size: cover; /* Makes sure the image covers the whole screen */
     background-position: center center; /* Centers the image */
     background-attachment: fixed; /* Keeps the image fixed when scrolling */
