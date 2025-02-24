@@ -42,7 +42,7 @@ img {
 
 .bio {
     text-align: left; /* Aligns text inside the bio */
-    max-width: 600px; /* Keeps text at a readable width */
+    max-width: 1000px; /* Keeps text at a readable width */
     margin: 0 auto; /* Centers the text block */
 }
 
