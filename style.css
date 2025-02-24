@@ -6,9 +6,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #CCC4B8;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     padding: 10px 15px;
     margin: 0 10px;
     display: inline-block;
