@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="publications.html">Publications</a>
-        <a href="cv.pdf">Curriculum Vitae</a>
-    </nav>
-</header>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,6 +25,13 @@
             text-align: left;
             margin-top: 20px;
         }
+        .section-heading {
+            text-align: left;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #ddd;
+        }
         .publication {
             margin-bottom: 20px;
         }
@@ -45,25 +45,45 @@
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="publications.html">Publications</a>
+            <a href="cv.pdf">Curriculum Vitae</a>
+        </nav>
+    </header>
+
     <div class="container">
         <h1>Publications</h1>
+
+        <h2 class="section-heading">Preprints</h2>
         <div class="publication-list">
-            <div class = "publication">
-                <p class = "citation">
-                    Storandt, M. H., Tella, S. H., Wieczorek, M. A., Hodge, D., <strong>Elrod, J. K.</strong>, Rosenberg, P. S., Jin, Z., &amp; Mahipal, A. (2024). Projected incidence of hepatobiliary cancers and trends based on age, race, and gender in the United States. <em>Cancers</em>, 16, 4.
-                    <a href = https://doi.org/10.3390/cancers16040684" target="_blank">DOI: 10.3390/cancers16040684</a>
+            <div class="publication">
+                <p class="citation">
+                    <strong>Elrod, J. K.</strong>, Sanyal, A., Hutchins, T., Townes, F. W., &amp; Torok, K. S. (2026). Longitudinal single-cell modeling reveals monocyte reprogramming in juvenile systemic sclerosis following autologous stem cell transplantation (p. 2026.08.21.738279). <em>bioRxiv</em>.
+                    <a href="https://doi.org/10.64898/2026.08.21.738279" target="_blank">DOI: 10.64898/2026.08.21.738279</a>
                 </p>
             </div>
-            <div class = "publication">
-                <p class = "citation">
-                    Zumsteg, Z. S., Luu, M., Rosenberg, P. S., <strong>Elrod, J. K.</strong>, Bray, F., Vaccarella, S., Gay, C., Lu, D. J., Chen, M. M., Chaturvedi, A. K., &amp; Goodman, M. T. (2023). Global epidemiologic patterns of oropharyngeal cancer incidence trends. <em>JNCI: Journal of the National Cancer Institute
-</em>, 115, 12. 
-                    <a href = https://doi.org/10.1093/jnci/djad169" target="_blank">DOI: 10.1093/jnci/djad169</a>
+            <!-- Add more preprints in APA format as needed -->
+        </div>
+
+        <h2 class="section-heading">Peer-reviewed</h2>
+        <div class="publication-list">
+            <div class="publication">
+                <p class="citation">
+                    Storandt, M. H., Tella, S. H., Wieczorek, M. A., Hodge, D., <strong>Elrod, J. K.</strong>, Rosenberg, P. S., Jin, Z., &amp; Mahipal, A. (2024). Projected incidence of hepatobiliary cancers and trends based on age, race, and gender in the United States. <em>Cancers</em>, 16, 4.
+                    <a href="https://doi.org/10.3390/cancers16040684" target="_blank">DOI: 10.3390/cancers16040684</a>
                 </p>
             </div>
             <div class="publication">
                 <p class="citation">
-                    Rosenberg, P. S., Filho, A. M., <strong>Elrod, J. K.</strong>, Arsham, A., Best, A. F., &amp; Chernyavskiy, P. (2023). Smoothing Lexis diagrams using kernel functions: A contemporary approach. <em>Statistical Methods in Medical Research</em>, 32, 9. 
+                    Zumsteg, Z. S., Luu, M., Rosenberg, P. S., <strong>Elrod, J. K.</strong>, Bray, F., Vaccarella, S., Gay, C., Lu, D. J., Chen, M. M., Chaturvedi, A. K., &amp; Goodman, M. T. (2023). Global epidemiologic patterns of oropharyngeal cancer incidence trends. <em>JNCI: Journal of the National Cancer Institute</em>, 115, 12.
+                    <a href="https://doi.org/10.1093/jnci/djad169" target="_blank">DOI: 10.1093/jnci/djad169</a>
+                </p>
+            </div>
+            <div class="publication">
+                <p class="citation">
+                    Rosenberg, P. S., Filho, A. M., <strong>Elrod, J. K.</strong>, Arsham, A., Best, A. F., &amp; Chernyavskiy, P. (2023). Smoothing Lexis diagrams using kernel functions: A contemporary approach. <em>Statistical Methods in Medical Research</em>, 32, 9.
                     <a href="https://doi.org/10.1177/09622802231192950" target="_blank">DOI: 10.1177/09622802231192950</a>
                 </p>
             </div>
@@ -76,7 +96,5 @@
             <!-- Add more publications in APA format as needed -->
         </div>
     </div>
-</body>
-
 </body>
 </html>
